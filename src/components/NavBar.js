@@ -4,15 +4,15 @@ import Navbar from 'react-bootstrap/Navbar'
 
 export default function NavBar() {
     return(
-        <Navbar className="topnav">
-            <Navbar.Brand>K-Store</Navbar.Brand>
-        <Nav className="justify-content-end">
-            <a className="active" href="/">Store</a>
+        <Navbar className="topnav" fixed="top">
+            <Navbar.Brand className="justify-content-left">K-Store</Navbar.Brand>
+        <Nav>
+            <a href="/">Store</a>
             <a href="/components/pages/Products.js">Productos</a>
             <a href="/components/pages/Cart.js">Cart</a>
         </Nav>
-
         </Navbar>
+
 
 
     )
