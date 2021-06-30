@@ -9,13 +9,11 @@ function App() {
   return ( 
     
     <Container fluid>
-      <Row>
-        <Col>
+    
       
     <NavBar/>
  
-        </Col>
-      </Row>
+      
     </Container>
 
    
